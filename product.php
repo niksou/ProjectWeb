@@ -1,0 +1,72 @@
+<?php
+
+$guns = array(
+    1 => array("Name" => "m-16",
+        "Price" => 22500,
+        "InCart" => 0,
+        "Id" => 1,
+        "Description" => "The M16 has also been widely adopted by other armed forces around the world. Total worldwide
+                        production of
+                        M16s is 8 million, making it the most-produced firearm of its 5.56 mm caliber.
+                        -click the photo for more information",
+        "Img" => "data:image/jpeg;base64,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",
+    ),
+
+    2 => array("Name" => "mp5",
+        "Price" => 14400,
+        "InCart" => 0,
+        "Id" => 2,
+        "Description" => "The MP5 is one of the most widely used submachine guns in the world, having been adopted by 40
+                        nations and numerous military, law enforcement, intelligence,
+                        and security organizations.It was widely used by SWAT teams. -click the photo for more
+                        information",
+        "Img" => "data:image/jpeg;base64,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",
+    ),
+
+    3 => array("Name" => "rpg",
+        "Price" => 44900,
+        "InCart" => 0,
+        "Id" => 3,
+        "Description" => "The ruggedness, simplicity, low cost, and effectiveness of the RPG-7 has made it the most
+                        widely used anti-armor weapon in the world.
+                        Currently around 40 countries use the weapon and its being produced aroung the world.-click the
+                        photo for more information",
+        "Img" => "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/RPG-7_detached.jpg/300px-RPG-7_detached.jpg"
+    ),
+
+    4 => array("Name" => "uzi",
+        "Price" => 16500,
+        "InCart" => 0,
+        "Id" => 4,
+        "Description" => "The non-reciprocating charging handle on the top of the receiver cover is used to retract the bolt.
+                    Variants have a ratchet safety mechanism which will
+                    catch the bolt and lock its movement if it is retracted past the magazine. -click the photo for more
+                    information",
+        "Img" => "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTdmM57R3TpVzg2IcoVkYD1oMoMlpj4RT2rJqVpZxB1Je_zpI7s&usqp=CAU"
+    ),
+
+    5 => array("Name" => "tavor",
+        "Price" => 34400,
+        "InCart" => 0,
+        "Id" => 5,
+        "Description" => "Built around a long-stroke piston system (as found in the M1 Garand and AK-47), the Tavor is
+                    designed to maximize reliability, durability, simplicity of design, and ease of maintenance,
+                    particularly under adverse or battlefield conditions. -click the photo for more information",
+        "Img" => "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Tavor-21-CTAR-pic001.jpg/260px-Tavor-21-CTAR-pic001.jpg"
+    ),
+
+    6 => array("Name" => "ak-47",
+        "Price" => 19900,
+        "InCart" => 0,
+        "Id" => 6,
+        "Description" => "The AK-47 is best described as a hybrid of previous rifle technology innovations. \"Kalashnikov
+                    decided to design
+                    an automatic rifle combining the best features of the American M1.Low production costs.-click the
+                    photo for more information",
+        "Img" => "https://wiki.tripwireinteractive.com/images/archive/a/a9/20121012145404%21Trader_AK_47.png"
+    ),
+
+);
+?>
